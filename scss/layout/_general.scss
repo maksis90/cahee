@@ -8,8 +8,7 @@
 }
 
 img {
-	max-width: 100%;
-	height: auto;
+	
 }
 
 html {
@@ -30,6 +29,88 @@ body, html {
 	clear: both;
 }
 body {
-	font: 300 17px/27px $font;
+	font: 300 17px/1.6 $font;
 
 }
+
+.container-cahee {
+	width: 1170px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+.title {
+	padding-top: 100px;
+	text-align: center;
+	
+	&__main {
+		font: 700 90px $font;
+		color: $black;
+		margin-bottom: 30px;
+	}
+
+	&__desc {		 
+	padding: 0 22.5%;
+	margin-bottom: 45px;
+	}
+
+	&__main--whitte {
+		color: #FFF;
+	}
+
+	&__desc--whitte {
+		color: #FFF;
+	}
+
+} 
+
+
+.button {
+		cursor: pointer;
+		text-transform: uppercase;
+		color: #fff;
+		background: $orange;
+		padding: 13px 25px 13px 25px;
+		text-decoration: none;
+		font: 300 20px/27px $font;
+		-webkit-box-shadow: 0px 4px 13px 0px rgba(0,0,0,0.75);
+		-moz-box-shadow: 0px 4px 13px 0px rgba(0,0,0,0.75);
+		box-shadow: 0px 4px 13px 0px rgba(0,0,0,0.75);
+		
+		&:hover {
+			background: $black;
+		}
+	}
+
+.button--red {
+	background: $red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

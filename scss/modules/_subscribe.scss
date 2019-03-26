@@ -1,0 +1,58 @@
+.subscribe {
+	height: 500px;
+	background: #FFF url('../images/subscribe.png') 150% no-repeat;
+
+	&__desc {
+		padding: 140px 0 30px;
+		margin-right: 50%;
+	}
+
+	&__title {
+		font: 700 40px $font;
+		margin-bottom: 20px;
+	}
+
+	&__text {
+		font-weight: 300;
+	}
+	
+}
+
+.subscribe-us {	
+	display: flex;	
+
+	&__field {
+		@include size(100%);
+		font: 17px $font;
+		color: #2a3144;
+		border: 1px solid $black;
+		padding: 20px 15px;
+		width: 45.5%;
+		margin-right: 30px;
+	}
+
+	&__button {
+		background: #96b92c;
+		font-size: 20px;
+		font-weight: 200;
+		padding: 18px 30px;
+		color: #FFF;
+		text-transform: uppercase;
+		cursor: pointer;
+		-webkit-box-shadow: 0px 1px 11px 0px rgba(36,31,36,1);
+		-moz-box-shadow: 0px 1px 11px 0px rgba(36,31,36,1);
+		box-shadow: 0px 1px 11px 0px rgba(36,31,36,1);	
+		
+		&:hover {
+			background: $black;
+		}
+	}
+}
+
+
+
+
+
+
+
+

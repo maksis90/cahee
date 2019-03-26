@@ -1,0 +1,30 @@
+.footer	{
+	background: $black;
+	color: $grey;
+	
+	&__wrap {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 15px 0;
+	}	
+	
+	&__copyright {
+		font-weight: 400;
+		font-size: 16px;
+	}
+
+	&__logo {
+		font: 25px $font-logo;
+		margin-left: -90px;
+	}
+
+	&__author {
+		font-size: 15px;
+	}
+
+	&__link {
+		text-decoration: none;
+		color: #ff2b58;
+	}
+}

@@ -30,15 +30,15 @@
 						<li class="menu__item">
 							<a href="#" class="menu__link">Home</a></li>
 						<li class="menu__item">
-							<a href="#" class="menu__link">About</a></li>
+							<a href="#about" class="menu__link">About</a></li>
 						<li class="menu__item">
-							<a href="#" class="menu__link">Services</a></li>
+							<a href="#services" class="menu__link">Services</a></li>
 						<li class="menu__item">
-						<a href="#" class="menu__link">Gallery</a></li>
+						<a href="#gallery" class="menu__link">Gallery</a></li>
 						<li class="menu__item">
-							<a href="#" class="menu__link">Blog</a></li>
+							<a href="#blog" class="menu__link">Blog</a></li>
 						<li class="menu__item">
-							<a href="#" class="menu__link">Contact</a></li>
+							<a href="#contact" class="menu__link">Contact</a></li>
 					</ul>	
 			</nav>
 		<div class="header__desc">
@@ -49,38 +49,271 @@
 		<p class="header__subtitle">
 			Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
 		</p>
-		
-		<a href="#" class="header__button">
+		<form action="#">
+		<button class="button">
 			Get Free Now
-		</a>	
-		
+		</button>	
+		</form>
 
 		</div>
 		<a href="#" class="scroll">
-					<svg class="scroll__icon">
- 					 <use xlink:href="#scroll"></use>
-					</svg>
-				</a>
+			<svg class="scroll__icon">
+ 				<use xlink:href="#scroll"></use>
+			</svg>
+		</a>
 		
 	</div>
 	</header>
 
-	<main class="main">
-	<section class="about">
-			<div class="container about__wrap">
-			<img src="images/about-us.png" class="about__img">
-			<div class="about__info">
-			<p class="about__title">
-				About Us
-			</p>
-			<p class="about__desc">
+	<section class="about" id="about">
+			<div class="container">
+				<div class="about__wrap">
+				<img src="images/about-us.png" class="about__img">
+				<div class="about__info">
+				<p class="about__title">
+					About Us
+				</p>
+				<p class="about__desc">
 				Abore Cahee magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.
 				Nim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.
+				</p>
+			</div>
+		</div>
+		</div>
+	</section>
+
+	<section class="services" id="services">
+		<div class="container">
+			<div class="services__wrap">
+			<div class="services__items">
+				<ul class="services__buttons">
+
+					<li class="services__list"><a href="#" class="services__link">
+						<p class="services__desc">Online Shopping</p>
+						<i class="icon-card"></i>
+					<li class="services__list"><a href="#" class="services__link"><p class="services__desc">Quality Product</p>
+						<i class="icon-product"></i>
+					</a></li>
+					<li class="services__list"><a href="#" class="services__link">
+					<p class="services__desc">Domestic & International Delivery</p>
+					<i class="icon-delivery"></i>
+					</a></li>
+					<li class="services__list"><a href="#" class="services__link"><p class="services__desc">Well Organized</p>
+						<i class="icon-organized"></i>
+					</a></li>
+				</ul>
+			</div>
+			<div class="services__title">
+				<h1 class="services__text">Our Services</h1> 
+			</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="gallery" id="gallery">
+		<div class="container">
+			<div class="title">
+				<h1 class="title__main">
+					Gallery
+				</h1>
+				<p class="title__desc">
+					Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+				</p>
+			</div>
+
+				<div class="container-fluid">
+				<div class="row">
+					<div class="col-8">
+						<div class="item">
+						<img src="images/peach.jpg" alt="img" class="item__img">
+					</div>
+					</div>
+					<div class="col-4">
+						<div class="col__small">
+							<div class="item">
+								<img src="images/blueberry.jpg" alt="img" class="item__img">
+							</div>
+							<div class="item">
+							<img src="images/blackberry.jpg" alt="img" class="item__img">
+							</div>
+						</div>
+					</div>
+				</div>	
+				<div class="row">
+					<div class="col-6">
+						<div class="item">
+						<img src="images/milk.jpg" alt="img" class="item__img">
+						</div>
+					</div>
+					<div class="col-6">
+						<div class="item">
+						<img src="images/persimmon.jpg" alt="img" class="item__img">
+					</div>
+				</div>
+			</div>
+		</div>	
+		
+		<form action="#">
+			<button class="button button--blue">View more
+			</button>
+		</form>	
+	</section>
+	
+	<section class="subscribe">
+		<div class="container">
+			<div class="subscribe__desc">
+				<h1 class="subscribe__title">Subscribe To Us</h1>
+				<p class="subscribe__text">
+				Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+				</p>
+			</div>
+			<form action="#" class="subscribe-us">
+				
+				<input type="email" name="email" class="subscribe-us__field" id="email" placeholder="Your email address...">
+				
+				<button type="submit" class="subscribe-us__button">Subscribe</button>
+			</div>
+			</form>			
+	</section>
+
+	<section class="blog">
+		<div class="container-cahee">	
+		<div class="title title__blog">
+			<h1 class="title__main title__main--whitte">
+				Blog
+			</h1>
+			<p class="title__desc title__desc--whitte">
+				Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.
+			</p>
+		</div>
+
+			<div class="row">
+				<div class="col-4 blog__item">
+					<div class="blog__date">
+						<p class="date__number">20</p>
+						<p class="date__month">
+							Nov
+						</p>
+					</div>
+					<p class="blog__text">
+						Green Smoothies: Too Much of a Good Thing?
+					</p>
+					<p class="blog__author">
+						By Auskteez - 2 hours ago	
+					</p>
+				</div>
+
+				<div class="col-4 blog__item">
+					<div class="blog__date">
+						<p class="date__number">14</p>
+						<p class="date__month">
+							Nov
+						</p>
+					</div>
+					<p class="blog__text">
+						Growing Food and a “Thirst” for Innovation
+					</p>
+					
+					<p class="blog__author">
+						By Auskteez - 3 hours ago	
+					</p>
+				</div>
+				
+			
+				<div class="col-4 blog__item">
+					<div class="blog__date">
+						<p class="date__number">10</p>
+						<p class="date__month">
+							Nov
+						</p>
+					</div>
+					<p class="blog__text">
+						Pesticides & Food: What You Need to Know
+					</p>
+					<p class="blog__author">
+						By Auskteez - 6 hours ago	
+					</p>
+				</div>
+			
+			</div>
+		</div>
+		<form action="#">
+			<button class="button button--red">View more
+			</button>
+		</form>
+		</div>
+	</section>
+
+	<section class="contact">
+		<div class="container-cahee">
+			<div class="title">
+				<h1 class="title__main">
+					Contact
+				</h1>
+				<p class="title__desc title__desc--contact">
+					For new projects, ideas, business or anything
+					you'd like to discuss, contact with me!
+				</p>
+				<div class="contact__wrap">
+				<form action="#">
+					<div class="contact__item">
+						<input type="text" name="name" id="contact__name" placeholder="Your name..." class="contact__input">
+						<label for="contact__name"></label>
+					</div>
+					<div class="contact__item">
+						<input type="email" name="email" id="contact__email" placeholder="Your email..." class="contact__input">
+						<label for="contact__email"></label>
+					</div>
+					<div class="contact__item">
+						<input type="tel" name="tel" id="contact__number" placeholder="Your phone number..." class="contact__input">
+						<label for="contact__number"></label>
+					</div>
+					<div class="contact__item">
+						<textarea rows="6" cols="50" name="contact__textarea" id="contact__textarea" placeholder="Your message..." class="contact__input contact__input--texarea"></textarea>
+						<label for="contact__textarea"></label>
+					</div>
+				</form>
+				<div class="address">
+					<h2 class="address__title">
+						Address
+					</h2>
+					<p class="address__text">
+						123 City name, Street, City, Country
+					</p>
+					<h2 class="address__title">
+						Email
+					</h2>
+					<p class="address__text">
+						cahee@domain.com
+					</p>
+					<h2 class="address__title">
+						Phone
+					</h2>
+					<p class="address__text">
+						+012 345 6789
+					</p>
+				</div>
+
+			</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="footer">
+		<div class="container">
+			<div class="footer__wrap">
+			<p class="footer__copyright">
+				&copy 2015 Company. All right reserved.
+			</p>
+			<p class="footer__logo">
+				Cahee
+			</p>
+			<p class="footer__author">
+				Made with <a href="https://ru.wikipedia.org/wiki/Make_love,_not_war" class="footer__link" target="_blank">love</a> by Auskteez
 			</p>
 			</div>
 		</div>
 	</section>
-	</main>
 <!-- LiveReload Script -->
 <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 </body>

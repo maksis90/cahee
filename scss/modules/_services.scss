@@ -1,0 +1,94 @@
+
+.services {
+	background: #70bfff url('../images/tomato.png') 83% no-repeat;
+	text-align: center;
+	height: 800px;
+	
+	&__wrap {
+	padding: 180px 0 100px;	
+	display: flex;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	align-items: center;
+	
+	}
+
+	&__items {
+		
+	}
+
+	&__tilte {
+		
+	}
+
+	&__list {
+		margin-bottom: 20px;
+	}
+
+	&__link {
+		text-decoration: none;
+		color: $black;
+		width: 400px;
+		background: #FFF;
+		padding: 0 120px 0 0;
+		height: 100px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		position: relative;
+		
+		&::before {
+			content: "";
+			@include pos($r: 25%);
+			height: 100%;
+			width: 1px;
+			background: #9d9d9d;
+		}
+	}
+
+	&__desc {
+		font: 700 20px/27px $font;
+			}
+
+	&__text {
+		
+		font: 700 90px $font;
+		color: #fff;
+		}
+}
+
+[class^="icon-"] {
+	font-size: 50px;
+	@include pos($r: 25px);	
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -26,22 +26,6 @@
 
 	&__subtitle {
 		margin-bottom: 30px;
-	}
-
-	&__button {
-		text-transform: uppercase;
-		color: #fff;
-		background: $orange;
-		padding: 13px 35px 13px 15px;
-		text-decoration: none;
-		font: 300 20px/27px $font;
-		-webkit-box-shadow: 0px 4px 13px 0px rgba(0,0,0,0.75);
-		-moz-box-shadow: 0px 4px 13px 0px rgba(0,0,0,0.75);
-		box-shadow: 0px 4px 13px 0px rgba(0,0,0,0.75);
-		
-		&:hover {
-			background: $black;
-		}
 	}	
 }
 
